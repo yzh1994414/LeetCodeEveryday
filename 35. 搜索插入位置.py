@@ -24,7 +24,7 @@
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。'''
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
-        left,right,min = 0,len(nums),len(nums)//2
+        left,right,mid = 0,len(nums),len(nums)//2
         while(left < right):
             if nums[mid] < target: left = mid + 1
             elif nums[mid] > target: right = mid
