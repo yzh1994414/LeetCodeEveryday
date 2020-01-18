@@ -1,1 +1,1 @@
-# LeetCodeEveryday
+# LeetCode
